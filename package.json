@@ -1,0 +1,35 @@
+{
+  "name": "nextpromise",
+  "version": "0.0.0",
+  "description": "Extends Ecma Promise with a few features",
+  "license": "MIT",
+  "keywords": [
+    "promise",
+    "promisify",
+    "async",
+    "asyncron"
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "inspect.js": "^1.3.0",
+    "lagoon-reporter": "^0.3.4",
+    "sinon": "^1.17.7"
+  },
+  "scripts": {
+    "test": "mocha --reporter lagoon-reporter tests/*.spec.js"
+  },
+  "homepage": "https://github.com//nextpromise",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//nextpromise.git"
+  },
+  "bugs": {
+    "url": "https://github.com//nextpromise/issues"
+  }
+}
